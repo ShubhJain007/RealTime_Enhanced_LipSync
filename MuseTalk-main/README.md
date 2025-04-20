@@ -23,12 +23,6 @@ Lyra Lab, Tencent Music Entertainment
 # Getting Started
 We provide a detailed tutorial about the installation and the basic usage of MuseTalk for new users:
 
-## Third party integration
-Thanks for the third-party integration, which makes installation and use more convenient for everyone.
-We also hope you note that we have not verified, maintained, or updated third-party. Please refer to this project for specific results.
-
-### [ComfyUI](https://github.com/chaojie/ComfyUI-MuseTalk)
-
 ## Installation
 To prepare the Python environment and install additional packages such as opencv, diffusers, mmcv, etc., please follow the steps below:
 ### To setup on IITK GPU
@@ -36,7 +30,7 @@ To prepare the Python environment and install additional packages such as opencv
 * eval "$(/srv/softs/anaconda3/bin/conda shell.bash hook)"
 * conda init
 * exec $SHELL //to restart shell
-* Cd Shubh_007A
+* Cd ur_directory
 * conda create -n mypython python=3.10 -y
 * conda activate mypython
 * Conda activate my python
@@ -81,6 +75,7 @@ From MuseTalk
 
 
 * If gradio error - then pip install gradio
+  ----End----
 ### Build environment
 We recommend Python 3.10 and CUDA 11.7. Set up your environment as follows:
 
