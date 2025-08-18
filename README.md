@@ -18,9 +18,6 @@ It integrates **lip-sync generation**, **low-light enhancement**, and **face res
 2. **Lip-Sync Generation (MuseTalk)** → Aligns lips with input audio.  
 3. **Enhancement (CodeFormer)** → Restores and sharpens facial details.  
 
-<p align="center">
-  <img src="docs/pipeline_diagram.png" alt="Pipeline Diagram" width="700">
-</p>
 
 ---
 
@@ -31,12 +28,21 @@ It integrates **lip-sync generation**, **low-light enhancement**, and **face res
 
 **Performance**:  
 - Real-Time Mode: **29 FPS**  
-- Disk-Save Mode: **10 FPS** (I/O bottleneck)  
-
-<p align="center">
-  <img src="docs/results_comparison.png" alt="Results Comparison" width="700">
-</p>
+- Disk-Save Mode: **10 FPS** (I/O bottleneck)
+- Result videos are present in the results folder
 
 ---
 
-## 📂 Project Structure
+## ⚡ Installation
+```bash
+# Clone repo
+git clone https://github.com/ShubhJain007/RealTime_Enhanced_LipSync.git
+cd RealTime_Enhanced_LipSync
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Usage
+python main.py --video input.mp4 --audio speech.wav --output result.mp4
+
+
